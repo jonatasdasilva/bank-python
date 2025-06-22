@@ -30,7 +30,7 @@ def clear() -> None:
         os.system("clear")
 
 
-def place():
+def place() -> None:
     global balance, extract
     value = float(input("\nDigite o valor do deposito: "))
     new_date = datetime.now().strftime("%d/%m/%Y")
@@ -53,7 +53,7 @@ def place():
     input("Pressione Enter para continuar...")
 
 
-def withdraw():
+def withdraw() -> None:
     global balance, extract, LIMIT, LIMIT_WITHDRAWAL, number_withdrawal
     
     entries = extract.get('withdraw', [])
@@ -93,7 +93,7 @@ def withdraw():
         input("\nPressione Enter para continuar...")
 
 
-def display():
+def display() -> None:
     global balance, extract
     
     for entries in extract.get('deposit', []):
