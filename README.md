@@ -8,18 +8,18 @@ Atividade do curso básico de Python do Bootcamp Santander 2025
 
 Sistema de banco possui as seguintes operações:
 
-- Deposito
+- Depósito
 - Saque
 - Visualizar Extrato
 
 ### 📑 Necessidades
 
 - os valores devem ser exibidos no formato: R$ xxxx.xx;
-- tem que mostrar de que tipo foi a operação (deposito ou saque);
+- tem que mostrar de que tipo foi a operação (depósito ou saque);
 
 ### 📇 As regras para cada operação são:
 
-1. 🪙 Deposito:
+1. 🪙 Depósito:
 
    - 1 usuário;
    - depósitos devem ser armazenados em uma variável;
@@ -42,7 +42,7 @@ O sistema tem um menu de seleção, onde pode ser escolhido a operação desejad
 
 No menu de seleção é possível escolher uma das seguintes opções:
 
-- d: deposito
+- d: depósito
 - s: saque
 - e: extrato
 - q: sair
